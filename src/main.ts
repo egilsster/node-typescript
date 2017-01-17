@@ -15,3 +15,5 @@ app.listen(Config.PORT, () => {
 	// Template literal
 	console.log(`server listening on port ${Config.PORT}`);
 });
+
+export default app;
