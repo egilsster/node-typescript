@@ -1,3 +1,3 @@
-const PORT: number = 8080;
-
-export default PORT;
+export default class Config {
+	public static PORT: number = 8080;
+}

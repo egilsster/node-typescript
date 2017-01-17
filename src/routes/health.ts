@@ -1,12 +1,10 @@
-'use strict';
-
 import * as express from 'express';
 import * as request from 'request';
 
 const api = express();
 
-api.get('/', (req, res) => {
-    res.render('raw', { body: 'Raw page' });
+api.get('/', async (req: express.Request, res: express.Response) => {
+	res.send({ status: 200 });
 });
 
 export default api;
